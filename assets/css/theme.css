@@ -55,11 +55,19 @@ body {
     padding: 10px 26px;
     background-color: var(--primary-color);
     color: var(--white-color);
+    border: 1px solid transparent;
     text-transform: capitalize;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 2px;
+    transition: 0.2s all ease;
     cursor: pointer;
+}
+
+.btn-orange-fill:hover {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .orange-dash {
@@ -208,6 +216,10 @@ header {
     padding: 0 10px;
     font-size: 14px;
     font-weight: 400;
+}
+
+.navbar-inner .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
 }
 
 .navbar-wrapper .navbar-inner .nav-right {
